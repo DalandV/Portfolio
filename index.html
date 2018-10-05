@@ -9,94 +9,133 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Daland's Portfolio</title>
+    <title>Portfolio 2.0</title>
 </head>
 
-<body style="background-image: url(assets/images/grey_sandbag.png); ">
+<body>
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Daland Dixon</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-<!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light p-0" style="background: #ffffff; border-bottom: 2px solid #cccccc;">
-        <div class="container p-0">
-            <div class="row w-100 mx-0 justify-content-center">
-                <div class="col-5 px-0">
-                    <a class="navbar-brand m-0 p-0" href="#">
-                        <h1 class="mb-0 px-4 py-3 text-white" style="background-color: #4aaaa5; font-family: 'Georgia', Times, 'Times New Roman', serif;">
-                            Daland Dixon
-                        </h1>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse col-5 p-0" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link py-0 my-2" style="color: #777777; border-right: 1px solid #dddddd;" href="index.html">About
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link py-0 my-2" style="color: #777777; border-right: 1px solid #dddddd;" href="portfolio.html">Portfolio
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link py-0 my-2" style="color: #777777;" href="contact.html">Contact
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio-row">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
 
-<!-- About Me -->
-    <div class="container pb-5">
+    <div class="contaier mt-5">
+        <!-- Intro -->
         <div class="row justify-content-center">
-            <div class="col-10 mt-5" style="background: #ffffff; border: 2px solid #dddddd; color: #777777; line-height: 200%;">
-                <h2 class="py-4 mb-3" style="font-family: 'Georgia', Times, 'Times New Roman', serif; color: #4aaaa5; border-bottom: 3px solid #dddddd;">
-                    About Me
-                </h2>
-                <p class="mb-1">
-                    <img class="img-fluid float-left mr-3 mb-0" src="assets/images/headshot.jpg" alt="Daland Dixon" height="214" width="204">
-                    Hi, my name is Daland Dixon and I’m an aspiring web developer. Here’s 5 random facts about me. I was
-                    born during a snow storm in Philadelphia, PA. I’ve had 5 dogs throughout my life. I like to cook. I graduated
-                    from Cheyney University of Pennsylvania in 2016. I almost got stranded in the Bahamas one time. Heres
-                    some lorem ipsum to fill up the rest of this page. Ut blandit odio non purus aliquam scelerisque. Mauris
-                    maximus augue purus, nec ultricies ante suscipit eget. Donec luctus magna vitae felis aliquet blandit.
-                    Vestibulum laoreet lobortis nisl, eu bibendum justo interdum non. Cras pharetra erat nulla, ut commodo
-                    elit sagittis sed.
-                </p>
-                <p>
-                    In eleifend nisl vitae gravida tempor. Pellentesque sodales mi tempus purus bibendum, et interdum purus facilisis.
-                    Praesent quis tortor at magna pretium iaculis eu at eros. Nam volutpat in lectus varius finibus. Phasellus
-                    feugiat sem pretium tellus congue, ut interdum turpis maximus. Sed non leo a mauris rhoncus cursus eget
-                    id sapien. Vestibulum eleifend leo ut nulla ullamcorper tristique. In a nulla et nisi vestibulum porttitor.
-                    Suspendisse pulvinar lacus lobortis dolor sodales rhoncus. Sed sollicitudin tempor sapien. Pellentesque
-                    justo mi, aliquam at nulla aliquam, sodales efficitur lacus. Nunc nec sapien sollicitudin, gravida nisl
-                    interdum, euismod quam.
-                </p>
+            <div class="col-10">
+                <div class="row justify-content-center mb-4">
+                    <div class="col-10">
+                        <div class="row justify-content-center pb-4" id="about-me-row">
+                            <div class="col-md-5 d-flex justify-content-center justify-content-md-end" id="about-me">
+                                <img class="rounded-circle" id="headshot" src="assets/images/headshot.jpg"
+                                    alt="Daland Dixon">
+                            </div>
+                            <div class="col-md-5 text-center text-md-left d-flex align-content-center flex-wrap">
+                                <h1 class="mx-auto" id="intro-h1">Hi, my name's Daland!</h1>
+                                <h2 class="mx-auto" id="intro-h2">I'm a web developer based in the Philadelphia area.</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Links -->
+                <div class="row justify-content-center mb-1">
+                    <div class="col text-center">
+                        <a class="personal-links pr-2" href="mailto:dalandvdixon@gmail.com"><i class="fas fa-envelope"></i>
+                            dalandvdixon@gmail.com</a>
+                        <a class="personal-links pr-2 pl-1" href="https://github.com/DalandV"><i class="fab fa-github"></i>
+                            github.com/DalandV</a>
+                        <a class="personal-links pl-1" id="no-br" href="https://www.linkedin.com/in/daland-dixon-7b784198/"><i
+                                class="fab fa-linkedin"></i>
+                            linkedin.com/in/daland-dixon-7b784198</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio -->
+        <div class="row justify-content-center mt-5" id="portfolio-row">
+            <div class="col-10">
+                <h2 class="text-center my-4" id="port-title">Recent Projects</h2>
+                <div class="row justify-content-center">
+                    <div class="col-10" id="port-sec">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4 d-flex justify-content-center">
+                                <a href="https://flshbones.github.io/TeamDisruptive/" target="_blank"><img class="portfolio-images img-fluid"
+                                        src="assets/images/no-fear-beer.png" style="border: 3px solid #dddddd" alt="Placeholder">
+                                    <div class="text-center mb-3">No Fear Beer</div>
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4 d-flex justify-content-center">
+                                <a href="https://dalandv.github.io/Train-Time/" target="_blank"><img class="portfolio-images img-fluid"
+                                        src="assets/images/train-time.png" style="border: 3px solid #dddddd" alt="Placeholder">
+                                    <div class="text-center mb-3">Train Time</div>
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4 d-flex justify-content-center">
+                                <a href="https://dalandv.github.io/giftastic/" target="_blank"><img class="portfolio-images img-fluid"
+                                        src="assets/images/giftastic.png" style="border: 3px solid #dddddd" alt="Placeholder">
+                                    <div class="text-center mb-3">Giftastic</div>
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4 d-flex justify-content-center">
+                                <a href="https://dalandv.github.io/TriviaGame/" target="_blank"><img class="portfolio-images img-fluid"
+                                        src="assets/images/trivia-game.png" style="border: 3px solid #dddddd" alt="Placeholder">
+                                    <div class="text-center mb-3">Trivia Game</div>
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4 d-flex justify-content-center">
+                                <a href="https://dalandv.github.io/unit-4-game/" target="_blank"><img class="portfolio-images img-fluid"
+                                        src="assets/images/crystals-collector.png" style="border: 3px solid #dddddd"
+                                        alt="Placeholder">
+                                    <div class="text-center mb-3">Crystals Collector</div>
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4 d-flex justify-content-center">
+                                <a href="https://dalandv.github.io/Psychic-Game/" target="_blank"><img class="portfolio-images img-fluid"
+                                        src="assets/images/psychic-game.png" style="border: 3px solid #dddddd" alt="Placeholder">
+                                    <div class="text-center mb-3">Psychic Game</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
 
-<!-- Footer -->
-    <div class="container-fluid p-4" style="background: #666666; border-top: 5px solid #4aaaa5";>
-        <div class="row">
-            <div class="col-12">
-
-            </div>
         </div>
-    </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/usm/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>

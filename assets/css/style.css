@@ -1,0 +1,70 @@
+.navbar{
+    background-color: #F0F4FA;
+}
+
+#about-me-row {
+    border-bottom: 1px solid grey
+}
+
+#headshot {
+    width: 158px;
+    align-self: start;
+}
+
+#intro-h1 {
+    font-size: 26px;
+}
+
+#intro-h2 {
+    font-size: 22px;
+}
+
+.personal-links {
+    display: block;
+    border: 0;
+}
+
+#port-title{
+    padding-top: 56px;
+}
+
+.portfolio-images {
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+/* #port-sec {
+    background-color: lightgray;
+} */
+
+/* body {
+    background-color: lightgray;
+} */
+
+#portfolio-row {
+    background-color: #F8F9FA;
+}
+
+footer {
+    padding: 30px;
+}
+
+@media only screen and (min-width: 1024px) {
+    #headshot {
+        width: 188px;
+        align-self: start;
+    }
+    #intro-h1 {
+        font-size: 40px;
+    }
+    #intro-h2 {
+        font-size: 30px;
+    }
+    .personal-links {
+        border-right: 1px solid grey;
+        display: inline;
+    }
+    #no-br {
+        border: 0;
+    }
+}
